@@ -1,12 +1,13 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import HomePage from "@/components/HomePage";
 
 
 export default function Home() {
   return (
-    <main className="h-screen bg-black">
+    <main className="h-screen bg-black relative">
       <Header />
-      <section className="h-[58vh]"></section>
+      <HomePage />
       <Footer />
     </main>
   )

@@ -14,7 +14,7 @@ export default function Header() {
         <header className="
             px-4 py-4 bg-black flex justify-between
             md:p-10
-            lg:px-32 lg:py-14
+            lg:px-32
             ">
             <Image src={logo} alt="logotipo" />
             <NavBar />
