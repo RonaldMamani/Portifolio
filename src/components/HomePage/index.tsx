@@ -6,13 +6,15 @@ import TextDinamic from "../Texts/TextDinamic";
 export default function HomePage(){
     return (
         <section className="relative">
-            <div className="bg-[url('../../public/background.avif')] bg-cover blur-sm h-[calc(100vh-7rem)]">
+            <div className="
+                bg-[url('../../public/background.avif')] bg-cover blur-sm h-[calc(100vh-4rem)]
+                md:h-[calc(100vh-7rem)]">
                 <div className="bg-black/60 h-full"></div>
             </div>
             <div className="
                 absolute flex flex-col gap-8
-                px-4 py-4 text-center top-12
-                md:p-10 md:text-start md:top-20
+                px-4 py-4 text-center top-20
+                md:p-10 md:text-start
                 lg:px-32 lg:top-28
                 ">
                     <TextPrincipal className="text-3xl font-semibold" text="Olá, Meu Nome é"/>
