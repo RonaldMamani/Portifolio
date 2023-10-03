@@ -19,7 +19,7 @@ export default function NavBar() {
                     transition-colors">
                     Sobre
                 </a>
-                <a href="#" className="
+                <a href="#tecnologias" className="
                     uppercase text-blue-500 font-bold 
                     hover:text-white hover:border-b-4 hover:pb-1 hover:border-b-white 
                     transition-colors">
@@ -59,7 +59,7 @@ export default function NavBar() {
                     transition-colors">
                     Tecnologias
                 </a>
-                <a href="#" className="
+                <a href="#tecnologias" className="
                     uppercase text-black font-bold 
                     hover:text-blue-500
                     transition-colors">

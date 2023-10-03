@@ -1,5 +1,3 @@
-"use client"
-
 import Foto from "@/../public/Perfil.jpg"
 import Image from "next/image"
 import TextCommon from "../Texts/TextCommon"
@@ -8,12 +6,8 @@ import TextSecundary from "../Texts/TextSecundary"
 import { US } from "country-flag-icons/react/3x2"
 import { BR } from "country-flag-icons/react/3x2"
 import { ES } from "country-flag-icons/react/3x2"
-import { SiJavascript } from "@icons-pack/react-simple-icons"
-import { useState } from "react"
 
 export default function Sobre() {
-    const [onHover, setOnHover] = useState(true)
-
     return(
         <section id="sobre" className="
             px-4 py-8 flex flex-col gap-10
@@ -60,7 +54,6 @@ export default function Sobre() {
                         </div>
                     </div>
                 </div>
-                
         </section>
     )
 }
