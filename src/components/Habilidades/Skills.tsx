@@ -51,7 +51,10 @@ export default function Skills() {
                     className={`${certificates ? "text-sky-100 border-b-sky-50 border-b-4 font-extrabold" : "text-sky-700"}`} 
                     onClick={onCertificate}  />
             </div>
-            <div className="p-20">
+            <div className="
+                px-5 py-10
+                md:p-10
+                lg:p-20">
                 {skills ? (
                     <Techs />
                 ): null}

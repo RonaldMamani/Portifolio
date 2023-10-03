@@ -47,8 +47,7 @@ export default function Techs() {
                 md:p-10
             ">
                 <div className="
-                    grid grid-cols-2 gap-5 items-center
-                    md:grid-cols-3 
+                    grid grid-cols-3 gap-5 items-center
                     lg:grid-cols-4 lg:gap-8
                     ">
                     <Image src={html} alt="HTML" title="HTML"/>
