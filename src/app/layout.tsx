@@ -1,8 +1,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Poppins} from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const font = Poppins({ subsets: ['latin'], weight: ['300','400','500','700','900'] })
 
 export const metadata: Metadata = {
   title: 'Ronaldo Mamani | Portifolio',
@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <body className={inter.className}>{children}</body>
+      <body className={font.className}>{children}</body>
     </html>
   )
 }

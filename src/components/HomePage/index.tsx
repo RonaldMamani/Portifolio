@@ -7,9 +7,9 @@ export default function HomePage(){
     return (
         <section className="relative">
             <div className="
-                bg-[url('../../public/background.avif')] bg-cover blur-sm h-[calc(100vh-4rem)]
+                bg-[url('../../public/bg.webp')] bg-cover blur-sm h-[calc(100vh-4rem)]
                 md:h-[calc(100vh-7rem)]">
-                <div className="bg-black/60 h-full"></div>
+                <div className="bg-black/80 h-full"></div>
             </div>
             <div className="
                 absolute flex flex-col gap-8

@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@icons-pack/react-simple-icons": "^9.0.1",
+    "country-flag-icons": "^1.5.7",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
