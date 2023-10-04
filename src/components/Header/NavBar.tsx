@@ -14,25 +14,25 @@ export default function NavBar() {
         <nav className="relative">
             <div className="max-[1023px]:hidden flex gap-10">
                 <a href="#sobre" className="
-                    uppercase text-blue-500 font-bold 
+                    uppercase text-sky-700 font-bold 
                     hover:text-white hover:border-b-4 hover:pb-1 hover:border-b-white 
                     transition-colors">
                     Sobre
                 </a>
                 <a href="#tecnologias" className="
-                    uppercase text-blue-500 font-bold 
+                    uppercase text-sky-700 font-bold 
                     hover:text-white hover:border-b-4 hover:pb-1 hover:border-b-white 
                     transition-colors">
                     Tecnologias
                 </a>
-                <a href="#" className="
-                    uppercase text-blue-500 font-bold 
+                <a href="#projetos" className="
+                    uppercase text-sky-700 font-bold 
                     hover:text-white hover:border-b-4 hover:pb-1 hover:border-b-white 
                     transition-colors">
                     Projeto
                 </a>
-                <a href="#" className="
-                    uppercase text-blue-500 font-bold 
+                <a href="#contact" className="
+                    uppercase text-sky-700 font-bold 
                     hover:text-white hover:border-b-4 hover:pb-1 hover:border-b-white 
                     transition-colors">
                     Contato
@@ -49,25 +49,25 @@ export default function NavBar() {
                 flex flex-col gap-5 items-center bg-white p-5 rounded-2xl`}>
                 <a href="#sobre" className="
                     uppercase text-black font-bold 
-                    hover:text-blue-500
+                    hover:text-blue-700
                     transition-colors">
                     Sobre
                 </a>
-                <a href="#" className="
+                <a href="#tecnologias" className="
                     uppercase text-black font-bold 
-                    hover:text-blue-500
+                    hover:text-blue-700
                     transition-colors">
                     Tecnologias
                 </a>
-                <a href="#tecnologias" className="
+                <a href="#projetos" className="
                     uppercase text-black font-bold 
-                    hover:text-blue-500
+                    hover:text-blue-700
                     transition-colors">
                     Projetos
                 </a>
-                <a href="#" className="
+                <a href="#contact" className="
                     uppercase text-black font-bold 
-                    hover:text-blue-500
+                    hover:text-blue-700
                     transition-colors">
                     Contato
                 </a>

@@ -1,6 +1,5 @@
-import logo from "@/../public/logo.svg"
-import Image from "next/image"
 import TextSpan from "../Texts/TextSpan"
+import TextDinamic from "../Texts/TextDinamic"
 
 export default function Footer() {
     return (
@@ -9,7 +8,9 @@ export default function Footer() {
             md:p-10 md:flex-row md:justify-between md:items-start
             lg:px-32 
             ">
-            <Image src={logo} alt="Logotipo" />
+            <a href="/" title="Logotipo">
+                <TextDinamic className="text-2xl font-semibold" classNameDinamic=" text-sky-700" text="RONALD" textDinamic1="_ARLEY" textDinamic2="_MAMANI" />
+            </a>
             <div className="
                 flex flex-col gap-3 text-center
                 md:text-start

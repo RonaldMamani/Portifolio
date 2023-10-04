@@ -20,7 +20,7 @@ export default function HomePage(){
                     <TextPrincipal className="text-3xl font-semibold" text="Olá, Meu Nome é"/>
                     <TextSecundary className="uppercase text-6xl font-extrabold" text="Ronaldo Arley"/>
                     <TextDinamic text="Eu sou " 
-                        className="text-4xl font-semibold" classNameDinamic="uppercase text-blue-500" 
+                        className="text-4xl font-extrabold" classNameDinamic="uppercase text-sky-700" 
                         textDinamic1="Programador Front-End" textDinamic2="Desenvolvedor Front-End" 
                     />
                 </div>

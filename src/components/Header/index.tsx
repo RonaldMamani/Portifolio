@@ -1,14 +1,7 @@
-"use client"
-
-import Image from "next/image";
-import { useState } from "react";
-
-import logo from "@/../public/logo.svg"
 import NavBar from "./NavBar";
+import TextDinamic from "../Texts/TextDinamic";
 
 export default function Header() {
-
-    const [open, setOpen] = useState(false)
 
     return (
         <header className="
@@ -16,7 +9,9 @@ export default function Header() {
             md:p-10
             lg:px-32
             ">
-            <Image src={logo} alt="logotipo" />
+            <a href="/" title="Logotipo">
+                <TextDinamic className="text-2xl font-extrabold" classNameDinamic=" text-sky-700" text="RONALD" textDinamic1="_ARLEY" textDinamic2="_MAMANI" />
+            </a>
             <NavBar />
         </header>
     )

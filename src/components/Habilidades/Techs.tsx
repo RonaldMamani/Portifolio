@@ -29,7 +29,7 @@ export default function Techs() {
             md:grid md:grid-cols-2 md:gap-10 md:items-start md:text-start
             ">
             <div className="flex flex-col gap-5">
-                <TextDinamic className="text-3xl font-bold" classNameDinamic="uppercase text-blue-700" text="Minhas " textDinamic1="Tecnologias" textDinamic2="Habilidades" />
+                <TextDinamic className="text-3xl font-bold" classNameDinamic="uppercase text-sky-700" text="Minhas " textDinamic1="Tecnologias" textDinamic2="Habilidades" />
                 <TextCommon 
                     className="text-gray-400" 
                     text="Sempre busco aprimorar minhas bases com tecnologias, busco sempre me atualizar por dentro das tecnologias que estão em alta no mercado
