@@ -71,9 +71,9 @@ export default function Techs() {
                     ) : null}
                 </div>
                 {!open ? (
-                    <button className="text-blue-700 font-bold pt-5 transition-colors hover:text-white hover:border-b-4" onClick={() => setOpen(!open)}>Mostrar Mais</button>
+                    <button className="text-sky-700 font-extrabold pt-5 transition-colors hover:text-white hover:border-b-4" onClick={() => setOpen(!open)}>Mostrar Mais</button>
                 ) : (
-                    <button className="text-blue-700 font-bold pt-5 transition-colors hover:text-white hover:border-b-4" onClick={() => setOpen(!open)}>Mostrar Menos</button>
+                    <button className="text-sky-700 font-extrabold pt-5 transition-colors hover:text-white hover:border-b-4" onClick={() => setOpen(!open)}>Mostrar Menos</button>
                 )}
             </div>
         </div>
