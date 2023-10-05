@@ -28,7 +28,7 @@ export default function Slide({ imageSrc, title, description, gitLink, hostedLin
                 className={`${
                 onHover ? "absolute bottom-0 bg-black/95 h-full xl:h-[75%] w-full" : "hidden"
                 } 
-                rounded-xl transition-transform py-3 px-4 
+                py-3 px-4 rounded-xl transition-transform transform hover:scale-105
                 md:py-1 md:px-3 
                 lg:p-4`}>
                 <div className="py-4 flex flex-col gap-6 lg:gap-8 items-center">

@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import TextCommon from "../Texts/TextCommon";
-import TextSecundary from "../Texts/TextSecundary";
 
 import css from "@/../public/css.svg"
 import html from "@/../public/html.svg"
@@ -17,6 +16,8 @@ import TS from "@/../public/typescript.svg"
 import next from "@/../public/next-js.svg"
 import java from "@/../public/java-4.svg"
 import c from "@/../public/c.svg"
+import git from "@/../public/git.svg"
+
 import { useState } from "react";
 import TextDinamic from "../Texts/TextDinamic";
 
@@ -61,9 +62,10 @@ export default function Techs() {
                     <Image src={react} alt="ReactJs" title="ReactJs" />
                     <Image src={TS} alt="TypeScript" title="TypeScript" />
                     <Image className="bg-white rounded-full p-1" src={next} alt="NextJs" title="NextJs" />
-                    <Image className="m-auto" src={java} alt="Java" width={55} title="Java" />
+                    <Image src={git} alt="Git" title="Git" />
                     {open ? (
                         <>
+                            <Image className="m-auto" src={java} alt="Java" width={55} title="Java" />
                             <Image src={c} alt="C++" title="C++" />
                         </>
                     ) : null}
