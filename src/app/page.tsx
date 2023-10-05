@@ -1,11 +1,10 @@
-import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
-import Habilidades from "@/components/Habilidades";
 import Header from "@/components/Header";
 import HomePage from "@/components/HomePage";
-import Projetos from "@/components/Projetos";
-import SwiperJs from "@/components/Projetos/Swiper";
 import Sobre from "@/components/Sobre";
+import Habilidades from "@/components/Habilidades";
+import Projetos from "@/components/Projetos";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 
 export default function Home() {
