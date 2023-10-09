@@ -1,10 +1,11 @@
 import { SiFacebook, SiGithub, SiGmail, SiInstagram, SiLinkedin, SiWhatsapp } from "@icons-pack/react-simple-icons";
 import TextDinamic from "../Texts/TextDinamic";
 import TextSecundary from "../Texts/TextSecundary";
+import TextCommon from "../Texts/TextCommon";
 
 export default function Contact() {
     return (
-        <section id="contact" className="
+        <section id="contato" className="
             bg-[url('../../public/contact-bg.jpg')] bg-cover bg-center 
             relative
             lg:h-screen">
@@ -35,7 +36,7 @@ export default function Contact() {
                                 border-4 border-gray-500 rounded-full py-2 px-4 items-center flex gap-3
                                 group hover:border-[#EA4335] transition-colors
                                 ">
-                                <SiGmail className="group-hover:fill-[#EA4335] rounded-full transition-colors" />
+                                <SiGmail className="group-hover:fill-[#EA4335] rounded-full transition-colors" width={25} height={20} />
                                 <span className="text-xl font-bold group-hover:text-[#EA4335] transition-colors">Ronaldmamani140@gmail.com</span>
                             </button>
                         </div>
@@ -60,6 +61,7 @@ export default function Contact() {
                             </a>
                         </div>
                     </div>
+                    <TextCommon className="text-4xl font-bold border-b-4 p-3 uppercase" text="São Paulo - SP" />
                 </div>
             </div>
             <div className="bg-black/80 min-h-screen"></div>

@@ -20,6 +20,7 @@ import git from "@/../public/git.svg"
 
 import { useState } from "react";
 import TextDinamic from "../Texts/TextDinamic";
+import { SiBootstrap, SiGit, SiJavascript, SiNextdotjs, SiNodedotjs, SiReact, SiSass, SiStyledcomponents, SiTailwindcss, SiTypescript, SiCplusplus} from "@icons-pack/react-simple-icons";
 
 
 export default function Techs() {
@@ -65,7 +66,7 @@ export default function Techs() {
                     <Image src={git} alt="Git" title="Git" />
                     {open ? (
                         <>
-                            <Image className="m-auto" src={java} alt="Java" width={55} title="Java" />
+                            <Image className="m-auto fill-black" src={java} alt="Java" width={55} title="Java" />
                             <Image src={c} alt="C++" title="C++" />
                         </>
                     ) : null}

@@ -5,6 +5,8 @@ import { useState } from "react"
 import hamburger from "@/../public/icon-hamburger.svg"
 import close from "@/../public/icon-close.svg"
 import Image from "next/image"
+import LinkDesk from "./LinkDesk"
+import LinkMobile from "./LinkMobile"
 
 export default function NavBar() {
 
@@ -12,31 +14,11 @@ export default function NavBar() {
 
     return (
         <nav className="relative">
-            <div className="max-[1023px]:hidden flex gap-10">
-                <a href="#sobre" className="
-                    uppercase text-sky-700 font-bold 
-                    hover:text-white hover:border-b-4 hover:pb-1 hover:border-b-white 
-                    transition-colors">
-                    Sobre
-                </a>
-                <a href="#tecnologias" className="
-                    uppercase text-sky-700 font-bold 
-                    hover:text-white hover:border-b-4 hover:pb-1 hover:border-b-white 
-                    transition-colors">
-                    Tecnologias
-                </a>
-                <a href="#projetos" className="
-                    uppercase text-sky-700 font-bold 
-                    hover:text-white hover:border-b-4 hover:pb-1 hover:border-b-white 
-                    transition-colors">
-                    Projeto
-                </a>
-                <a href="#contact" className="
-                    uppercase text-sky-700 font-bold 
-                    hover:text-white hover:border-b-4 hover:pb-1 hover:border-b-white 
-                    transition-colors">
-                    Contato
-                </a>
+            <div className="max-[1023px]:hidden flex gap-5">
+                <LinkDesk Ref="#sobre" content="Sobre" />
+                <LinkDesk Ref="#tecnologias" content="Tecnologias" />
+                <LinkDesk Ref="#projetos" content="Projetos" />
+                <LinkDesk Ref="#contato" content="Contato" />
             </div>
             <button className="lg:hidden relative" onClick={() => setOpen(!open)}>
                 {open ? (
@@ -47,30 +29,10 @@ export default function NavBar() {
             </button>
             <div className={`${open ? "hidden" : "absolute right-3 top-8"} 
                 flex flex-col gap-5 items-center bg-white p-5 rounded-2xl`}>
-                <a href="#sobre" className="
-                    uppercase text-black font-bold 
-                    hover:text-blue-700
-                    transition-colors">
-                    Sobre
-                </a>
-                <a href="#tecnologias" className="
-                    uppercase text-black font-bold 
-                    hover:text-blue-700
-                    transition-colors">
-                    Tecnologias
-                </a>
-                <a href="#projetos" className="
-                    uppercase text-black font-bold 
-                    hover:text-blue-700
-                    transition-colors">
-                    Projetos
-                </a>
-                <a href="#contact" className="
-                    uppercase text-black font-bold 
-                    hover:text-blue-700
-                    transition-colors">
-                    Contato
-                </a>
+                <LinkMobile Ref="#sobre" content="Sobre"/>
+                <LinkMobile Ref="#tecnologias" content="Tecnologias" />
+                <LinkMobile Ref="#projetos" content="Projetos" />
+                <LinkMobile Ref="#contato" content="Contato" />
             </div>
         </nav>
     )

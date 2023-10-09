@@ -25,8 +25,8 @@ const ProjetosPessoais = [
         description: `
             Site de Blogr, com estrutura baseado em pagina em Landing Page, o site foi desenvolvido em ReactJS com Vite e utilizando o 
             Framework do TailwindCSS, a pagina é totalmente responsiva em diferentes tipos de telas como Mobile, Tablet e Desktop.`,
-        gitLink: "https://github.com/projeto1",
-        hostedLink: "https://projeto1.com",
+        gitLink: "https://github.com/RonaldMamani/Blogr_Page",
+        hostedLink: "https://blogr-page-dusky.vercel.app/",
         technologies: ["HTML", "CSS", "JavaScript", "TailwindCSS", "ReactJs"],
     },
     {
@@ -36,8 +36,8 @@ const ProjetosPessoais = [
             Site de Sunnyside, com estrutura baseado em pagina de nutrição, o site foi desenvolvido em ReactJS com Vite e usando Framework
             do TailwindCSS, a pagina é totalmente responsiva em diferentes tipos de telas como Mobile, Tablet e Desktop.
             `,
-        gitLink: "https://github.com/projeto2",
-        hostedLink: "https://projeto2.com",
+        gitLink: "https://github.com/RonaldMamani/SunnySide-Page",
+        hostedLink: "https://sunny-side-page.vercel.app/",
         technologies: ["HTML", "CSS", "JavaScript", "TailwindCSS", "ReactJs"],
     },
     {
@@ -47,8 +47,8 @@ const ProjetosPessoais = [
             Site de News, a estrutura é baseado em uma pagina de Noticias de Games, o site foi desenvolvido em ReactJS com Vite e com os Frameworks
             de TailwindCSS e Bootstrap, a pagina é totalmente responsiva em diferentes tipos de telas como Mobile, Tablet e Desktop.
             `,
-        gitLink: "https://github.com/projeto3",
-        hostedLink: "https://projeto3.com",
+        gitLink: "https://github.com/RonaldMamani/News-HomePage",
+        hostedLink: "https://news-home-page-ten.vercel.app/",
         technologies: ["HTML","JavaScript", "TailwindCSS", "Bootstrap", "ReactJs"],
     },
     {
@@ -58,8 +58,8 @@ const ProjetosPessoais = [
             Site de TypeMaster, a pagina e baseada em uma pagina de produto a venda, o site foi desenvolvido em ReactJS com Vite e utilizando o Framework
             do TailwindCSS, a pagina é totalmente responsiva em diferentes tipos de telas como Mobile, Tablet e Desktop.
             `,
-        gitLink: "https://github.com/projeto4",
-        hostedLink: "https://projeto4.com",
+        gitLink: "https://github.com/RonaldMamani/Typemaster-Page",
+        hostedLink: "https://typemaster-page.vercel.app/",
         technologies: ["HTML", "CSS", "JavaScript", "TailwindCSS", "ReactJs"],
     },
 ]
