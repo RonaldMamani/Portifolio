@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState } from "react";
+import { useState } from "react";
 import {SwiperSlide } from "swiper/react";
 import Image, { StaticImageData } from "next/image";
 import TextSecundary from "../Texts/TextSecundary";
