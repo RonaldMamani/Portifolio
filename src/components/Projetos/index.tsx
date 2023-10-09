@@ -14,11 +14,44 @@ import Blogr from "@/../public/Projects/Blogr.jpg"
 import Sunnyside from "@/../public/Projects/Sunnyside.jpg"
 import News from "@/../public/Projects/NewsHP.jpg"
 import TypeMaster from "@/../public/Projects/TypeMaster.jpg"
-import TextDinamic from '../Texts/TextDinamic';
+import Loop from "@/../public/Projects/LoopStudio.jpg"
+import Art from "@/../public/Projects/ArtGallery.jpg"
+import Spitter from "@/../public/Projects/Splitter.jpg"
 
+import TextDinamic from '../Texts/TextDinamic';
 import Slide from './Slide';
 
 const ProjetosPessoais = [
+    {
+        imageSrc: Spitter,
+        title: "Spitter",
+        description: `
+            Site de Splitter, e um sistema de calculo de Gorgeta, esse calculo e aplicando a porcentagem da gorgeta com o numero de pessoas, assim gerando um valor, 
+            o site foi desenvolvido em ReactJS utilizando o Framework do TailwindCSS, a pagina é totalmente responsiva em diferentes tipos de telas.`,
+        gitLink: "https://github.com/RonaldMamani/Splitter",
+        hostedLink: "https://splitter-alpha.vercel.app/",
+        technologies: ["HTML", "CSS", "JavaScript", "TailwindCSS", "ReactJs"],
+    },
+    {
+        imageSrc: Art,
+        title: "Art Gallery",
+        description: `
+            Site de Art Gallery, com estrutura baseado em uma pagina de Galeria, a pagina utiliza links com React Router, o site foi desenvolvido com NextJs, ReactJs e utilizando o 
+            Framework do TailwindCSS, a pagina é totalmente responsiva em diferentes tipos de telas.`,
+        gitLink: "https://github.com/RonaldMamani/Art_Gallety",
+        hostedLink: "https://art-gallety.vercel.app/",
+        technologies: ["HTML", "CSS", "JavaScript", "TailwindCSS", "ReactJs", "NextJs"],
+    },
+    {
+        imageSrc: Loop,
+        title: "Loop Studios",
+        description: `
+            Site de LoopStudios, com estrutura baseado em uma pagina de Studio, o site foi desenvolvido em ReactJS com Vite e utilizando o 
+            Framework do TailwindCSS, a pagina é totalmente responsiva em diferentes tipos de telas como Mobile, Tablet e Desktop.`,
+        gitLink: "https://github.com/RonaldMamani/LoopStudios_Page",
+        hostedLink: "https://loop-studios-page.vercel.app/",
+        technologies: ["HTML", "CSS", "JavaScript", "TailwindCSS", "ReactJs"],
+    },
     {
         imageSrc: Blogr,
         title: "Blogr",
@@ -77,8 +110,8 @@ export default function Projetos() {
                         grabCursor={true}
                         centeredSlides={true}
                         autoplay={{
-                            delay: 1000 * 5,
-                            pauseOnMouseEnter: true
+                            delay: 1000 * 3,
+                            pauseOnMouseEnter: true,
                         }}
                         loop={true}
                         keyboard

@@ -25,7 +25,7 @@ export default function Contact() {
                             flex flex-col justify-center gap-8 items-center
                             lg:flex-row
                             ">
-                            <a href="https://api.whatsapp.com/send?phone=5511912628484" className="
+                            <a target="_blank" href="https://api.whatsapp.com/send?phone=5511912628484" className="
                                 border-4 border-gray-500 rounded-full py-2 px-4 items-center flex gap-3
                                 group hover:border-green-500 transition-colors
                                 ">
@@ -47,16 +47,16 @@ export default function Contact() {
                                 text="Minhas" textDinamic1="_Redes" textDinamic2="_Sociais" 
                         />
                         <div className="flex justify-center gap-10">
-                            <a href="https://www.facebook.com/RonaldMamani1400/">
+                            <a target="_blank" href="https://www.facebook.com/RonaldMamani1400/">
                                 <SiFacebook className="hover:fill-[#1877F2] transition-colors" width={50} height={50} />
                             </a>
-                            <a href="https://www.instagram.com/ronald_mamani1000/">
+                            <a target="_blank" href="https://www.instagram.com/ronald_mamani1000/">
                                 <SiInstagram className="hover:fill-[#E4405F] transition-colors" width={50} height={50} />
                             </a>
-                            <a href="https://www.linkedin.com/in/ronaldo-mamani-339b0b192/">
+                            <a target="_blank" href="https://www.linkedin.com/in/ronaldo-mamani-339b0b192/">
                                 <SiLinkedin className="hover:fill-[#0A66C2] transition-colors" width={50} height={50} />
                             </a>
-                            <a href="https://github.com/RonaldMamani">
+                            <a target="_blank" href="https://github.com/RonaldMamani">
                                 <SiGithub className="hover:fill-[#5f5f5f] transition-colors" width={50} height={50} />
                             </a>
                         </div>

@@ -28,10 +28,10 @@ export default function HomePage(){
                         flex justify-center gap-5 items-center
                         md:justify-start
                         ">
-                        <a href="https://www.linkedin.com/in/ronaldo-mamani-339b0b192/" className="">
+                        <a target="_blank" href="https://www.linkedin.com/in/ronaldo-mamani-339b0b192/" className="">
                             <SiLinkedin className="hover:fill-[#0A66C2] hover:bg-white rounded-lg transition-colors" width={40} height={40} />
                         </a>
-                        <a href="https://github.com/RonaldMamani">
+                        <a target="_blank" href="https://github.com/RonaldMamani">
                             <SiGithub className="hover:fill-[#181717] hover:bg-white rounded-full transition-colors" width={40} height={40} />
                         </a>
                     </div>
