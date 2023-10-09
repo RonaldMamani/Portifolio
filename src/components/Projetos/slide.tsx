@@ -1,3 +1,5 @@
+"use client"
+
 import React, { useState } from "react";
 import {SwiperSlide } from "swiper/react";
 import Image, { StaticImageData } from "next/image";
@@ -15,7 +17,7 @@ type SlideProps = {
     technologies: string[];
 };
 
-export default function Slide({ imageSrc, title, description, gitLink, hostedLink, technologies } : SlideProps) {
+export default function Slides({ imageSrc, title, description, gitLink, hostedLink, technologies } : SlideProps) {
     const [onHover, setOnHover] = useState(false);
 
     return (
@@ -57,7 +59,7 @@ export default function Slide({ imageSrc, title, description, gitLink, hostedLin
                                     {tech === "Bootstrap" && <SiBootstrap width={30} height={30} color="#7952B3" title="Bootstrap5" />}
                                     {tech === "StyledComponents" && <SiStyledcomponents width={30} height={30} color="#D87893" title="StyledComponents" />}
                                     {tech === "Sass" && <SiSass width={30} height={30} color="#CC6699" title="Sass" />}
-                                    {tech === "NextJs" && <SiNextdotjs width={30} height={30} color="#000" title="NextJs" />}
+                                    {tech === "NextJs" && <SiNextdotjs width={30} height={30} color="#000" className="bg-white rounded-full" title="NextJs" />}
                                     {tech === "TypeScript" && <SiTypescript width={30} height={30} color="#3178C6" title="TypeScript" />}
                                     {tech === "NodeJs" && <SiNodedotjs width={30} height={30} color="#339933" title="NodeJs" />}
                                 </span>

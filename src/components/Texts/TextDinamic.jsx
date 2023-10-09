@@ -3,15 +3,9 @@
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
 
-type TextDinamic = {
-    text: string,
-    textDinamic1: string,
-    textDinamic2?: string,
-    className: string,
-    classNameDinamic: string,
-}
 
-export default function TextDinamic({text, textDinamic1, textDinamic2, className, classNameDinamic} : TextDinamic) {
+
+export default function TextDinamic({text, textDinamic1, textDinamic2, className, classNameDinamic}) {
     const el = useRef(null)
 
     useEffect(() => {

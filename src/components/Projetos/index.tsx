@@ -19,7 +19,8 @@ import Art from "@/../public/Projects/ArtGallery.jpg"
 import Spitter from "@/../public/Projects/Splitter.jpg"
 
 import TextDinamic from '../Texts/TextDinamic';
-import Slide from './Slide';
+import Slides from './Slide';
+
 
 const ProjetosPessoais = [
     {
@@ -141,7 +142,7 @@ export default function Projetos() {
                         >
                             {ProjetosPessoais.map((slide, index) => (
                                 <SwiperSlide key={index}>
-                                <Slide
+                                <Slides
                                     imageSrc={slide.imageSrc}
                                     title={slide.title}
                                     description={slide.description}
